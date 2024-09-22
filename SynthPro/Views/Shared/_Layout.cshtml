@@ -4,12 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SynthPro</title>
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">SynthPro</a>
                 <button class="navbar-toggler" type="button"
@@ -43,7 +45,7 @@
     </div>
 
     <footer class="border-top footer text-muted mt-3 pb-3">
-        <div class="container">&copy; @DateTime.Now.Year - SynthPro, All Rights Reserved</div>
+        <div class="container">&copy; @DateTime.Now.Year - SynthPro</div>
     </footer> 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
