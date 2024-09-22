@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SynthPro</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">SynthPro</a>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-item nav-link active" asp-controller="Base Control" asp-action="Index">Base Control</a>
+                        <a class="nav-item nav-link" asp-controller="Synth" asp-action="List">Synths</a>
+                        <a class="nav-item nav-link" asp-controller="Synth Mage" asp-action="List">Synth Mage</a>
+                        <a class="nav-item nav-link" asp-controller="Patrons" asp-action="List">Patrons</a>
+                        <a class="nav-item nav-link" asp-controller="Blips" asp-action="List">Blips</a>
+                        <a class="nav-item nav-link" asp-controller="Future Tweakers" asp-action="Index">Future Tweakers</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link" asp-controller="Home" asp-action="About">About Us</a>
+                        <a class="nav-item nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-3 pb-3">
+        <div class="container">&copy; @DateTime.Now.Year - SynthPro, All Rights Reserved</div>
+    </footer> 
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
