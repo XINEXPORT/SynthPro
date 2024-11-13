@@ -1,5 +1,10 @@
-![synthpromain](https://github.com/user-attachments/assets/d562a8ef-894d-4f40-a967-7240da7f3bd6)
-<br/>
-![synthpro1](https://github.com/user-attachments/assets/6ee255d5-cf95-4d3d-9dab-832b55b5afb2)
-<br/>
-![synthpro2](https://github.com/user-attachments/assets/d347bfaa-3b5c-4b68-9f8e-b6bda9d05171)
+SynthPro aka SynthMage
+
+A fictional ecommerce musical store 
+where users can create hypothetical synthesiszers and musical instruments
+
+Some ideas for this site is to use popular AI APIs to help generate images of fake synthesizers
+Based on a social media post of a friend of mine, ill leverage Generative AI to make improbable synthesizers based on a user's input
+itll have all the workings of a tyical ecommerce site, except the monetary transaction
+
+
